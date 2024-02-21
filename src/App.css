@@ -1,0 +1,78 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body{
+    background-color: rgb(165, 165, 165);
+}
+
+.container{
+    background-color: rgb(226, 226, 226);
+    width: 80%;
+    margin: 2em auto;
+    padding: 1em 2em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0.5em;
+    display: grid;
+}
+
+.h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+.h2{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.form{
+    margin: 3em 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+
+.label{
+    margin: 1em 2em;
+}
+
+.input{
+    width: 80%;
+    margin: 0.5em 0;
+    outline: none;
+    border: none;
+    border-radius: 1em;
+    padding: 0.7em 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name{
+    padding: 0em 1.5em;
+}
+
+.submit{
+    width: 40%;
+    padding: 1em;
+    background-color: #ff0044e8;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    place-items: center;
+    grid-column: 1/-1;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: #c40034;
+}
+
+.audio-name{
+    font-family: 'Poppins', sans-serif;
+}
+
+.audio{
+    width: 100%;
+}
